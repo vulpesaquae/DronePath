@@ -37,3 +37,7 @@
 *.sqlite
 *.json
 *.suo
+*.ilk
+*.log
+*.pdb
+*.idb

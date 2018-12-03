@@ -33,3 +33,7 @@
 
 # Other unnecessary stuff
 *.opendb
+*.db
+*.sqlite
+*.json
+*.suo

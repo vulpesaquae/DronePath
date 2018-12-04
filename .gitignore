@@ -34,6 +34,8 @@
 # Other unnecessary stuff
 *.opendb
 *.db
+*.filters
+*.user
 *.sqlite
 *.json
 *.suo

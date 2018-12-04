@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DronePath"
   ],
+  "SelectedNode": "\\DronePath\\DronePath.sln",
   "PreviewInSolutionExplorer": false
 }

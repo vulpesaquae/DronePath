@@ -43,6 +43,8 @@
 *.log
 *.pdb
 *.idb
+*.tlog
+*.lastbuildstate
 .vs/
 DronePath/.vs/
 DronePath/x64/

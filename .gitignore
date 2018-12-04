@@ -44,3 +44,6 @@
 *.pdb
 *.idb
 .vs/
+DronePath/.vs/
+DronePath/x64/
+DronePath/x32/

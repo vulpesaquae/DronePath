@@ -1,18 +1,22 @@
 #pragma once
-#include <iostream>
 
-class Point
-{
+#include <string>
+
+class Point {
 private:
     double m_latitude;
     double m_longitude;
     std::string m_name;
+
 public:
-    Point(double latitude, double longitude, std::string name = "");
+    Point(double latitude, double longitude, std::string name);
+    Point(double latitude, double longitude);
 
-    void Set(double latitude, double longitude, std::string name = "");
+    void set(double latitude, double longitude, std::string name);
 
-    double Latitude();
-    double Longitude();
-    std::string Name();
+    double getLatitude() const;
+    double getLongitude() const;
+    std::string getName() const;
+
+    void Print();
 };

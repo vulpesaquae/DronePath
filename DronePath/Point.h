@@ -4,19 +4,18 @@
 
 class Point {
 private:
-    double m_latitude;
-    double m_longitude;
-    std::string m_name;
+	double m_latitude;
+	double m_longitude;
+	std::string m_name;
 
 public:
-    Point(double latitude, double longitude, std::string name);
-    Point(double latitude, double longitude);
+	Point(double latitude, double longitude, std::string name = "N/A");
 
-    void set(double latitude, double longitude, std::string name);
+	void Set(double latitude, double longitude, std::string name = std::string());
 
-    double getLatitude() const;
-    double getLongitude() const;
-    std::string getName() const;
+	double GetLatitude() const;
+	double GetLongitude() const;
+	std::string GetName() const;
 
-    void Print();
+	void Print();
 };

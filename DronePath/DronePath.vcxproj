@@ -143,13 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="DistanceCalculator.cpp" />
     <ClCompile Include="DronePath.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="PointList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="DistanceCalculator.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="PointList.h" />
   </ItemGroup>

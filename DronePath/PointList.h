@@ -6,17 +6,18 @@
 
 class PointList {
 private:
-    std::vector<Point*> points;
+	std::vector<Point*> points;
 
 public:
-    PointList();
-    PointList(PointList& orig);
+	PointList();
+	PointList(PointList& orig);
+	~PointList();
 
-    void add(Point& arg);
+	void Add(Point& arg);
 
-    double getDistance();
+	double GetDistance();
 
-    void print();
+	void Print();
 
-    PointList& operator=(PointList& orig);
+	PointList& operator=(PointList& orig);
 };
